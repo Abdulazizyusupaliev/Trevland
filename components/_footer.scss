@@ -1,0 +1,111 @@
+.footer{
+    padding: 70px 0 78px 0;
+    background: rgba(38, 148, 153, 0.04);
+
+    .footer__intro{
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            color: #000;
+            font-family: $rib;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 36px */
+            letter-spacing: 1.44px;
+        }
+
+        .contact{
+            color: #000;
+            font-family: $rob;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 25.6px */
+            letter-spacing: 0.96px;
+            margin: 40px 0 10px 0;
+        }
+
+        .user_gmail{
+            color: #000;
+            font-family: $rob;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 25.6px */
+            letter-spacing: 0.96px;
+            margin-bottom: 20px;
+        }
+
+        .footer__list{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            a{
+                color: #000;
+                font-family: $rob;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; /* 24px */
+                letter-spacing: 0.96px;
+            }
+        }
+
+        .subscribe__and__email{
+            h2{
+                color: #000;
+                font-family: $rob;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; /* 30px */
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                margin-bottom: 42px;
+            }
+
+            .email{
+                display: flex;
+                align-items: center;
+                gap: 35px;
+
+                input{
+                    width: 195px;
+                    height: 44px;
+                    padding: 10px 20px;
+                    color: #000;
+                    font-family: $rob;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%; /* 24px */
+                    letter-spacing: 0.96px;
+                    border-radius: 5px;
+                    border: 1px solid #000;
+                    opacity: 0.1;
+                    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+                }
+
+                .btn{
+                    width: 103px;
+                    height: 44px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                    background: #C9453B;
+                    color: #FFF;
+                    font-family: $rob;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%; /* 24px */
+                    letter-spacing: 0.96px;
+                }
+            }
+        }
+    }
+}

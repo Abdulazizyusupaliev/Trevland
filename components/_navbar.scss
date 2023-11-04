@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+
+        a{
+            color: #FFF;
+            font-family: $rob;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 150%;
+            text-transform: capitalize;
+        }
+    }
+
+    &_title{
+        color: #FFF;
+        font-family: $rib;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+        letter-spacing: 1.44px;
+    }
+
+    &__btn{
+        padding: 13px 35px;
+        color: #FFF;
+        font-family: $rob;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        border-radius: 5px;
+        background: #C9453B;
+        border: none;
+        outline: none;
+    }
+}
